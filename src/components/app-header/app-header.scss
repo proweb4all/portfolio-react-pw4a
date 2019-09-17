@@ -1,0 +1,51 @@
+.app-header {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  padding: 15px 30px;
+  background-color: #fff;
+}
+.user{
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  align-items: center;
+}
+
+.app-header h2 {
+  display: inline-block;
+  font-size: 28px;
+  color: green;
+}
+
+.app-header p {
+  font-size: 18px;
+  color: rgb(44, 44, 44);
+}
+
+.app-header img {
+  display: inline-block;
+  height: 50px;
+  width: auto;
+  margin-right: 20px;
+  border-radius: 100%;
+  border: 1px solid rgba(0,0,0,.125);
+  overflow: hidden;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+}
+.nav li{
+  list-style-type: none;
+}
+.nav-item{
+  font-size: 20px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+.nav-item:hover{
+  background-color: #555;
+}
