@@ -19,6 +19,7 @@ export default class App extends Component {
       },
       { id: 2, 
         title: 'ToDo App на React', 
+        img: 'img/i.webp',
         year: '2019',
         description: 'Реализация ToDo-приложения на React и Redux с использованием localStorage',
         technology: ['HTML', 'CSS', 'Javascript', 'React', 'Redux', 'localStorage'],
@@ -27,6 +28,7 @@ export default class App extends Component {
       },
       { id: 3, 
         title: 'Имитация Instagram на React', 
+        img: 'img/i.webp',
         description: 'Имитация Instagram на React с использованием JSON',
         year: '2019',
         technology: ['HTML', 'CSS', 'Javascript', 'React', 'JSON'],
@@ -35,6 +37,7 @@ export default class App extends Component {
       },
       { id: 4, 
         title: 'Верстка интернет-магазина Manom', 
+        img: 'img/i.webp',
         description: 'Верстка интернет-магазина',
         year: '2018',
         technology: ['HTML', 'CSS', 'Javascript', 'jQuery'],
@@ -43,6 +46,7 @@ export default class App extends Component {
       },
       { id: 5, 
         title: 'Имитация Instagram на React', 
+        img: 'img/i.webp',
         description: 'Имитация Instagram на React с использованием JSON',
         year: '2019',
         technology: ['HTML', 'CSS', 'Javascript', 'React', 'JSON'],
@@ -51,6 +55,7 @@ export default class App extends Component {
       },
       { id: 6, 
         title: 'Вертска интернет-магазина', 
+        img: 'img/i.webp',
         description: 'Вертска интернет-магазина',
         year: '2018',
         technology: ['HTML', 'CSS', 'Javascript', 'jQuery'],
@@ -59,7 +64,7 @@ export default class App extends Component {
       },
     ],
     filter: '',
-  }
+  };
   
   render() {
     const {data, filter} = this.state;

@@ -2,14 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './project-list-item.scss';
 
-const ProjectListItem = ({ title, description, year, technology, linkWeb, linkGithub }) => {
+const ProjectListItem = ({ title, img, description, year, technology, linkWeb, linkGithub }) => {
     const technologies = technology.join(", ");
     return (
         <div className='project-card'>
             <div>
                 <h3 className='card-title'>{title}</h3>
                 <div className='card-block-img'>
-                    <img className='card-img' src="img/i.webp" alt=''/>
+                    <img className='card-img' src={img} alt=''/>
                     <div className='card-descr'>
                         <p className='card-descr-text'>{description}</p>
                     </div>
@@ -31,6 +31,7 @@ const ProjectListItem = ({ title, description, year, technology, linkWeb, linkGi
 }
 ProjectListItem.propTypes = {
     title: PropTypes.string,
+    img: PropTypes.string,
     description: PropTypes.string,
     year: PropTypes.string,
     technology: PropTypes.array,
@@ -40,6 +41,7 @@ ProjectListItem.propTypes = {
   
 ProjectListItem.defaultProps = {
     title: '',
+    img: 'img/i.webp',
     description: '',
     year: '?? ',
     technology: [],
