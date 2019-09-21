@@ -14,8 +14,8 @@ const ProjectList = ({ projects }) => {
   });
   return (
     <div>
-      <h2>Кое-что из моих проектов</h2>
-      <div className='no-lr'>
+      <h2 className='projects-h1'>Кое-что из моих проектов</h2>
+      <div className='block-scroll'>
         <div className='projects-block'>{elements}</div>
       </div>
     </div>

@@ -1,0 +1,27 @@
+.home-page{
+    display: flex;
+    height: calc(100vh - 270px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ddd;
+    font-weight: normal;
+    //flex-wrap: wrap;
+}
+.home-page__h1, .home-page__h2, .home-page__h3{
+    font-weight: normal;
+    width: 100%;
+}
+.home-page__h1{
+    font-size: 30px;
+    margin-bottom: 1vh;
+}
+.home-page__h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.home-page__h3{
+    font-size: 20px;
+    //margin-bottom: 3vh;
+    color: #aaa;
+}

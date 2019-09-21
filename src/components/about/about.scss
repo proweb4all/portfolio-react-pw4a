@@ -1,0 +1,27 @@
+.about-block{
+    color: #fff;
+}
+.title-h1, .title-h2, .title-h3{
+    font-weight: normal;
+    width: 100%;
+}
+.title-h1{
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+.contacts-links{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #555;
+}
+.contacts-link{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: .2s;
+}
+.contacts-link:hover{
+    color: yellow;
+}

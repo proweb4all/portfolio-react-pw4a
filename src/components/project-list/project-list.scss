@@ -5,10 +5,21 @@
   padding: 20px 35px 10px 35px;
   margin-top: 10px;
 }
+.projects-h1{
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  padding-bottom: 15px;
+}
 .projects-block{
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: stretch;
   flex-wrap: wrap;
+  background-color: rgba($color: #fff, $alpha: .1)
+}
+.block-scroll{
+  height: calc(100vh - 190px);
+  overflow: auto;
 }

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import AppHeader from "../app-header";
+import HomePage from '../home-page';
 import ProjectList from '../project-list';
 import ErrorPage from '../error';
 import About from '../about';
@@ -73,9 +74,9 @@ export default class App extends Component {
         <div className='app container'>
           <AppHeader />
           <Switch>
-            <Route path='/' render={ () => <h2>Welcome to StarDB</h2>} exact />
-            <Route path='/portfolio' render={ () => <ProjectList projects={data}/>} />
+            <Route path='/' component={HomePage} exact />
             <Route path='/about' component={About} />
+            <Route path='/portfolio' render={ () => <ProjectList projects={data}/>} />
             <Route path='*' component={ErrorPage} />
           </Switch>
         </div>
