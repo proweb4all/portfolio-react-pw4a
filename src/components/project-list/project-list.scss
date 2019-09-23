@@ -17,9 +17,11 @@
   justify-content: center;
   align-items: stretch;
   flex-wrap: wrap;
-  background-color: rgba($color: #fff, $alpha: .1)
+  background-color: rgba($color: #000, $alpha: .3);
+  //filter: blur(5px);
 }
 .block-scroll{
   height: calc(100vh - 190px);
   overflow: auto;
+  border-radius: 5px;
 }

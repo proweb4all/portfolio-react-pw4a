@@ -9,7 +9,7 @@ const ProjectListItem = ({ title, img, description, year, technology, linkWeb, l
             <div>
                 <h3 className='card-title'>{title}</h3>
                 <div className='card-block-img'>
-                    <img className='card-img' src={img} alt=''/>
+                    <img className='card-img' src={img} alt={title}/>
                     <div className='card-descr'>
                         <p className='card-descr-text'>{description}</p>
                     </div>
