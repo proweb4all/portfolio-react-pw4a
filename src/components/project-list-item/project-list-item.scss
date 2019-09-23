@@ -23,6 +23,7 @@
   position: relative;
   overflow: hidden;
   display: table;
+  border: 2px solid #fff;
 }
 .card-img{
   display: block;
@@ -76,6 +77,8 @@
   //box-shadow:0px 0px 3px 2px rgba(199,199,199,0.9);
 }
 .card-year{
+  font-size: 12px;
+  font-style: italic;
   padding: 10px;
   text-align: right;
 }
