@@ -5,7 +5,7 @@
         "img": "img/projects/pf_1.jpg",
         "description": "Приложение-портфолио на React.js, подгрузка данных из JSON, адаптивная верстка",
         "year": "сентябрь 2019",
-        "technology": ["Дизайн", "HTML", "CSS", "Javascript", "React", "AJAX/JSON"],
+        "technology": ["Дизайн", "HTML", "CSS", "Javascript", "React", "AJAX", "JSON"],
         "linkWeb": "http://portfolio.proweb4all.ru/",
         "linkGithub": "https://github.com/proweb4all/portfolio-react-pw4a"
       },
