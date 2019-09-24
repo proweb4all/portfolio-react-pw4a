@@ -8,10 +8,10 @@ export default class ProjectList extends Component {
     checks: [
       {name: 'design', label: 'Дизайн', check: false},
       // {name: 'htmlscc', label: 'HTML+CSS', check: true},
-      {name: 'javascript', label: 'Javascript', check: true},
+      {name: 'javascript', label: 'Javascript', check: false},
       {name: 'jquery', label: 'jQuery', check: false},
       {name: 'react', label: 'React', check: false},
-      {name: 'ajax', label: 'AJAX', check: false}
+      // {name: 'ajax', label: 'AJAX', check: false}
     ]
   }
   
@@ -25,7 +25,13 @@ export default class ProjectList extends Component {
   }
 
   render() {
-    const { projects } = this.props;
+    let { projects } = this.props;
+    // Массив выделенных checkbox
+    const filters = this.state.checks.filter(({check}) => check === true);
+    // Фильтрация
+    filters.forEach(({label}) => {
+      projects = projects.filter(({technology}) => technology.includes(label));
+    });
     const elements = projects.map(item => {
       if (item != null && typeof item == "object") {
         const { id, ...itemProps } = item;

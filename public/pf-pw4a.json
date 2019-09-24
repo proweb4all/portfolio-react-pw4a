@@ -39,7 +39,7 @@
       { "id": 5, 
         "title": "Имитация Instagram на React", 
         "img": "img/projects/pf_5.jpg",
-        "description": "Приложение, имитирующее пару страниц Инстаграма. Используется подгрузка данных из JSON",
+        "description": "Тренировочное приложение, имитирующее пару страниц Инстаграма. Используется подгрузка данных из JSON",
         "year": "май 2019",
         "technology": ["HTML", "CSS", "Javascript", "React", "AJAX", "JSON"],
         "linkWeb": "http://insta-react.proweb4all.ru/",
@@ -230,7 +230,7 @@
         "img": "img/projects/pf_26.jpg",
         "description": "Дизайн, адаптивная валидная верстка, изучение jQuery...",
         "year": "октябрь 2016",
-        "technology": ["HTML", "CSS", "Javascript", "jQuery"],
+        "technology": ["Дизайн", "HTML", "CSS", "Javascript", "jQuery"],
         "linkWeb": "https://proweb4all.ru/piano/",
         "linkGithub": "" 
       },
@@ -239,7 +239,7 @@
         "img": "img/projects/pf_27.jpg",
         "description": "Одна из первых работ. Дизайн, адаптивная валидная верстка...",
         "year": "октябрь 2016",
-        "technology": ["HTML", "CSS", "Javascript", "jQuery"],
+        "technology": ["Дизайн", "HTML", "CSS", "Javascript", "jQuery"],
         "linkWeb": "https://proweb4all.ru/wowberu/",
         "linkGithub": "" 
       }
