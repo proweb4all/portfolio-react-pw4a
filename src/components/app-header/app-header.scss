@@ -2,7 +2,7 @@
   display: flex; 
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   padding: 15px 0;
   border-bottom: 1px solid #555;
 }
@@ -14,20 +14,20 @@
   text-decoration: none;
 }
 
-.app-header h2 {
+.user__h2 {
   display: inline-block;
   font-size: 24px;
   color: #ddd;
   font-weight: normal;
 }
 
-.app-header p {
+.user__p {
   font-size: 16px;
   color: #aaa;
   font-style: italic;
 }
 
-.app-header img {
+.user__img {
   display: inline-block;
   height: 50px;
   width: auto;
@@ -60,4 +60,32 @@
 }
 .nav-item:hover, .nav-item.active{
   color: yellow;
+}
+
+/*==========  Desktop First  ==========*/
+@media only screen and (max-width: 612px) {
+  .user__h2 {
+    font-size: 18px;
+  }
+  .user__p {
+    font-size: 12px;
+    color: #aaa;
+    font-style: italic;
+  }
+  .user__img {
+    display: inline-block;
+    height: 35px;
+    margin-right: 10px;
+  }
+  .nav-item{
+    font-size: 16px;
+  }
+  .nav li{
+    padding: 0 8px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .user__descr{
+    display: none;
+  }
 }

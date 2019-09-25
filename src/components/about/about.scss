@@ -1,5 +1,5 @@
 .about-scroll{
-    height: calc(100vh - 150px);
+    height: calc(100vh - 160px);
     overflow: hidden;
     overflow-y: auto;
     webkit-overflow-scrolling: touch;
@@ -52,17 +52,10 @@
     color: #aaa;
     margin: 0 auto;
 }
-.contacts-links{
-    display: flex;
-    justify-content: center;
-}
-.contacts-link{
-    padding: 0 10px;
-    font-size: 16px;
-    text-decoration: none;
-    color: #aaa;
-    transition: .2s;
-}
-.contacts-link:hover{
-    color: yellow;
+
+/*==========  Desktop First  ==========*/
+@media only screen and (max-width: 612px) {
+    .about-scroll{
+        height: calc(100vh - 190px);
+    }
 }

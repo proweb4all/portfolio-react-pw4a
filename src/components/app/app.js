@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AppHeader from "../app-header";
+import ContactLinks from "../contacts";
 import HomePage from '../home-page';
 import ProjectList from '../project-list';
 import ErrorPage from '../error404';
@@ -41,6 +42,7 @@ export default class App extends Component {
             )} />
             <Route path='*' component={ErrorPage} />
           </Switch>
+          <ContactLinks outerClass='contacts-links__main' />
         </div>
       </Router>
     );

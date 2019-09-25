@@ -7,7 +7,7 @@
 }
 .projects-h1{
   color: #fff;
-  font-size: 24px;
+  font-size: 23px;
   font-weight: normal;
   padding-bottom: 15px;
 }
@@ -20,7 +20,7 @@
   background-color: rgba($color: #000, $alpha: .3);
 }
 .block-scroll{
-  height: calc(100vh - 230px);
+  height: calc(100vh - 240px);
   overflow: hidden;
   overflow-y: auto;
   webkit-overflow-scrolling: touch;
@@ -43,4 +43,11 @@
   box-shadow: 0 0 1px 1px #bbb, inset 0 0 6px rgba(0,0,0,0.3);
 	-webkit-box-shadow: 0 0 1px 1px #bbb, inset 0 0 6px rgba(0,0,0,0.3);
   background-color: #F5F5F5;
+}
+
+/*==========  Desktop First  ==========*/
+@media only screen and (max-width: 612px) {
+  .block-scroll{
+    height: calc(100vh - 275px);
+  }
 }

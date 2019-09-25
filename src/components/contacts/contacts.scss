@@ -1,20 +1,11 @@
-
-.container{
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-.no-lr{
-  margin-left: -15px;
-  margin-right: -15px;
-}
 .contacts-links__main{
   position: absolute;
   bottom: 15px;
-  margin: 0 auto;
   left: 50%;
   width: 100%;
   transform: translateX(-50%);
+}
+.contacts-links{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
