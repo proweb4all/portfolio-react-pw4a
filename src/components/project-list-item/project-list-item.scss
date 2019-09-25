@@ -62,7 +62,6 @@
 .card-link{
   text-decoration: none;
   color: #fff;
-  //font-weight: bold;
   padding: 5px 10px;
   border-radius: 3px;
   border: 1px solid #444;
@@ -70,11 +69,8 @@
   transition: .2s;
 }
 .card-link:hover{
-  //background-color: #ededed;
   background-color: #333;
   color: yellow;
-  //color: #000;
-  //box-shadow:0px 0px 3px 2px rgba(199,199,199,0.9);
 }
 .card-year{
   font-size: 12px;

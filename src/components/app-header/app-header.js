@@ -15,7 +15,6 @@ const AppHeader = () => (
             <li><NavLink exact className='nav-item' to='/'>Главная</NavLink></li>
             <li><NavLink className='nav-item' to='/about'>Обо мне</NavLink></li>
             <li><NavLink className='nav-item' to='/portfolio'>Портфолио</NavLink></li>
-            {/* <li><NavLink className='nav-item' to='/getdata'>GetData</NavLink></li> */}
         </ul>
     </header>
 )

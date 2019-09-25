@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import './status-filter.css';
 
 const StatusFilter = ({ checks, onCheckToggle }) => {
@@ -21,6 +22,16 @@ const StatusFilter = ({ checks, onCheckToggle }) => {
             {checkList}
         </div>
     );
+}
+
+StatusFilter.propTypes = {
+    checks: PropTypes.array,
+    onCheckToggle: PropTypes.func,
+}
+  
+StatusFilter.defaultProps = {
+    checks: [],
+    onCheckToggle: () => {},
 }
 
 export default StatusFilter;
