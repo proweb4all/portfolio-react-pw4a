@@ -11,9 +11,10 @@ const About = () => (
             <p className='about__p'>Имею 2&nbsp;высших образования, постоянно развиваю свои компетенции.</p>
             <p className='about__p'>Буду рад общению и&nbsp;любому взаимовыгодному сотрудничеству.</p>
             <h3 className='about__h3'>Мои навыки:</h3>
-            <p className='about__p'>HTML5, CSS3, SCSS, Flexbox, Bootstrap 4, CSS Grid, SVG</p>
+            <p className='about__p'>HTML5, CSS3, SCSS, Flexbox, CSS Grid</p>
+            <p className='about__p'>Bootstrap 4, БЭМ, SVG</p>
             <p className='about__p'>Javascript, jQuery, React (Redux, MobX)</p>
-            <p className='about__p'>Npm, Babel, Gulp, Webpack, Git</p>
+            <p className='about__p'>Npm, Bower, Gulp, Webpack, Git</p>
             <p className='about__p'>UI/UX design, Photoshop, Figma, Avocode</p>
             <h3 className='about__h3'>Мои контакты:</h3>
             <ContactLinks />
