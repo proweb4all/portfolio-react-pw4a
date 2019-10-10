@@ -15,7 +15,7 @@ const About = () => (
             <p className='about__p'>Bootstrap 4, БЭМ, SVG</p>
             <p className='about__p'>Javascript, jQuery, React (Redux, MobX)</p>
             <p className='about__p'>Npm, Bower, Gulp, Webpack, Git</p>
-            <p className='about__p'>UI/UX design, Photoshop, Figma, Avocode</p>
+            <p className='about__p'>UI/UX design, Photoshop, Figma, Avocode, Zeplin</p>
             <h3 className='about__h3'>Мои контакты:</h3>
             <ContactLinks />
         </div>
