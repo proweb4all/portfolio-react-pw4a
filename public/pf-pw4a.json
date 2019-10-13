@@ -228,9 +228,9 @@
       { "id": 26, 
         "title": "Пианино (побренькать на досуге)", 
         "img": "img/projects/pf_26.jpg",
-        "description": "Дизайн, адаптивная валидная верстка, изучение jQuery...",
+        "description": "В процессе изучения jQuery...",
         "year": "октябрь 2016",
-        "technology": ["Дизайн", "HTML", "CSS", "Javascript", "jQuery"],
+        "technology": ["HTML", "CSS", "Javascript", "jQuery"],
         "linkWeb": "https://proweb4all.ru/piano/",
         "linkGithub": "" 
       },
