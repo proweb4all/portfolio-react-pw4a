@@ -1,5 +1,23 @@
 {
     "data": [
+      { "id": 29, 
+        "title": "ToDo-приложение на React.js", 
+        "img": "img/projects/pf-29.jpg",
+        "description": "Пример ToDo-приложения на React.js с использованием Bootstrap, Axios и Firebase",
+        "year": "ноябрь 2019",
+        "technology": ["HTML", "CSS", "Bootstrap", "Javascript", "React", "Axios", "JSON", "Firebase"],
+        "linkWeb": "http://todo-min.proweb4all.ru/",
+        "linkGithub": "https://github.com/proweb4all/react-todomin"
+      },
+      { "id": 28, 
+        "title": "Приложение 'Конструктор интерьеров'", 
+        "img": "img/projects/pf-28.jpg",
+        "description": "Приложение-конструктор интерьеров, позволяющее для каждого представленного помещения выбрать материалы исполнения интерьера. После чего можно выслать себе на email выбранный вариант декора, а из письма вернуться в приложение к своему проекту",
+        "year": "октябрь - ноябрь 2019",
+        "technology": ["HTML", "CSS", "Javascript", "jQuery", "AJAX", "JSON", "PHP"],
+        "linkWeb": "https://proweb4all.ru/prodec/",
+        "linkGithub": ""
+      },
       { "id": 1, 
         "title": "Приложение-портфолио на React.js", 
         "img": "img/projects/pf_1.jpg",
@@ -176,7 +194,7 @@
         "img": "img/projects/pf_20.jpg",
         "description": "Изучение Bootstrap 4...",
         "year": "декабрь 2017",
-        "technology": ["HTML", "CSS", "Bootstrap-4"],
+        "technology": ["HTML", "CSS", "Bootstrap"],
         "linkWeb": "https://proweb4all.ru/portfolio/bootstrap4-3/",
         "linkGithub": "" 
       },
@@ -185,7 +203,7 @@
         "img": "img/projects/pf_21.jpg",
         "description": "Изучение Bootstrap 4...",
         "year": "декабрь 2017",
-        "technology": ["HTML", "CSS", "Bootstrap-4", "Javascript", "jQuery"],
+        "technology": ["HTML", "CSS", "Bootstrap", "Javascript", "jQuery"],
         "linkWeb": "https://proweb4all.ru/portfolio/base-b4/",
         "linkGithub": "" 
       },
@@ -194,7 +212,7 @@
         "img": "img/projects/pf_22.jpg",
         "description": "Изучение Bootstrap 4...",
         "year": "декабрь 2017",
-        "technology": ["HTML", "CSS", "Bootstrap-4", "Javascript", "jQuery"],
+        "technology": ["HTML", "CSS", "Bootstrap", "Javascript", "jQuery"],
         "linkWeb": "https://proweb4all.ru/portfolio/bootstrap4-2/",
         "linkGithub": "" 
       },
@@ -203,7 +221,7 @@
         "img": "img/projects/pf_23.jpg",
         "description": "Изучение Bootstrap 4...",
         "year": "ноябрь 2017",
-        "technology": ["HTML", "CSS", "Bootstrap-4", "Javascript", "jQuery"],
+        "technology": ["HTML", "CSS", "Bootstrap", "Javascript", "jQuery"],
         "linkWeb": "https://proweb4all.ru/portfolio/bootstrap4-1/",
         "linkGithub": "" 
       },

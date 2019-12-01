@@ -5,13 +5,14 @@ import './status-filter.css';
 const StatusFilter = ({ checks, onCheckToggle }) => {
     const checkList = checks.map(({ label, check }) => {
         return (
-            <label className='check-label'>
+            <label className='check-label' key={label}>
                 <input 
                     type='checkbox'
                     checked={check} 
                     className='check-input'
-                    key={label}
+                    //key={label}
                     onClick={() => onCheckToggle(label)}
+                    onChange={() => {}}
                 />
                 {label}
             </label>

@@ -29,7 +29,7 @@ export default class App extends Component {
 
 
   render() {
-    const {data, filter} = this.state;
+    const {data} = this.state;
     return (
       <Router>
         <div className='app container'>

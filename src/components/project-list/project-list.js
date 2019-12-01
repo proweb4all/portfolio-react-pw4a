@@ -33,10 +33,8 @@ export default class ProjectList extends Component {
     const elements = projects.map(item => {
       if (item != null && typeof item == "object") {
         const { id, ...itemProps } = item;
-        return (
-          <ProjectListItem key={id} {...itemProps} />
-        );
-      };
+        return <ProjectListItem key={id} {...itemProps} />;
+      } else return null;
     });
     return (
       <div>
